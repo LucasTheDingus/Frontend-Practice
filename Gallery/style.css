@@ -1,0 +1,19 @@
+html,body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+.grid{
+    display: grid;
+    grid-template: 30vh 30vh 30vh / 30vh 30vh 30vh;
+    grid-gap: 10px;
+    border: 4px;
+    background-color: blue;
+}
+
+.grid > div > img{
+    width: 100%;
+}
