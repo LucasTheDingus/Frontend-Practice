@@ -8,12 +8,15 @@ html,body{
 
 .grid{
     display: grid;
-    grid-template: 30vh 30vh 30vh / 30vh 30vh 30vh;
+    grid-template: repeat(3,30vh)/repeat(3,30vh);
     grid-gap: 10px;
-    border: 4px;
+    padding: 10px;
     background-color: blue;
 }
 
-.grid > div > img{
+.image{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
 }
